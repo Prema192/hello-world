@@ -10,7 +10,11 @@ pipeline {
             }
         }
     
-    
+    stage('Hii') {
+            steps {
+                echo 'hi prema how are you'
+            }
+        }
         stage('SCM') {
             steps {
                 git 'https://github.com/Prema192/hello-world.git'
